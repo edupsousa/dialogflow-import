@@ -1,3 +1,3 @@
-export * from './AgentFile';
 export * from './Intent';
 export * from './UserSays';
+export * from './Agent';

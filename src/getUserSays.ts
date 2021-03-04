@@ -1,13 +1,13 @@
-import { JSZipObject } from 'jszip';
-import { AgentFile, UserSays, UserSaysPhrase } from "./types";
+import JSZip, { JSZipObject } from 'jszip';
+import { UserSays, UserSaysPhrase } from "./types";
 
 const USERSAYS_FILENAME_REGEX = /^intents\/(.+)_usersays_(.+)\.json$/g;
 
-export async function getUserSays(agentFile: AgentFile): Promise<UserSays[]> {
+export async function getUserSays(agentFile: JSZip): Promise<UserSays[]> {
     return Promise.all(filterUserSaysFiles(agentFile).map(parseUserSaysFile));
 }
 
-function filterUserSaysFiles(agentFile: AgentFile): JSZipObject[] {
+function filterUserSaysFiles(agentFile: JSZip): JSZipObject[] {
     return agentFile.filter((path) => USERSAYS_FILENAME_REGEX.test(path));
 }
 

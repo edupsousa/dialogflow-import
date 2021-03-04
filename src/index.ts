@@ -1,4 +1,4 @@
 export * from './types';
 export * from './importAgent';
-export * from './getIntentFiles';
+export * from './getIntents';
 export * from './getUserSays';

@@ -1,13 +1,13 @@
-import { JSZipObject } from 'jszip';
-import { AgentFile, Intent } from "./types";
+import JSZip, { JSZipObject } from 'jszip';
+import { Intent } from "./types";
 
 const INTENT_FILENAME_REGEX = /^intents\/((?!_usersays_).)*\.json$/g;
 
-export async function getIntents(agentFile: AgentFile): Promise<Intent[]> {
+export async function getIntents(agentFile: JSZip): Promise<Intent[]> {
     return Promise.all(filterIntentFiles(agentFile).map(parseIntentFile));
 }
 
-function filterIntentFiles(agentFile: AgentFile): JSZipObject[] {
+function filterIntentFiles(agentFile: JSZip): JSZipObject[] {
     return agentFile.filter((path) => INTENT_FILENAME_REGEX.test(path));
 }
 
