@@ -105,3 +105,6 @@ dist
 
 # Jest Coverage Report
 coverage/
+
+# Sample Agents for testing and examples
+sample/*.zip
