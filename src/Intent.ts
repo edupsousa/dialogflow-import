@@ -1,9 +1,9 @@
-export interface IIntentFile {
+export interface Intent {
   id: string;
   name: string;
   auto: boolean;
   contexts: string[];
-  responses: IResponse[];
+  responses: IntentResponse[];
   priority: number;
   webhookUsed: boolean;
   webhookForSlotFilling: boolean;
@@ -14,21 +14,21 @@ export interface IIntentFile {
   conditionalFollowupEvents: any[];
 }
 
-export interface IResponse {
+export interface IntentResponse {
   resetContexts: boolean;
   action: string;
-  affectedContexts: IAffectedContext[];
-  parameters: IParameter[];
-  messages: IMessage[];
+  affectedContexts: IntentAffectedContext[];
+  parameters: IntentParameter[];
+  messages: IntentMessage[];
   speech: any[];
 }
 
-export interface IAffectedContext {
+export interface IntentAffectedContext {
   name: string;
   lifespan: number;
 }
 
-export interface IMessage {
+export interface IntentMessage {
   type: string;
   title: string;
   payload?: unknown;
@@ -38,12 +38,12 @@ export interface IMessage {
   speech?: string[];
 }
 
-export interface IPrompt {
+export interface IntentPrompt {
   lang: string;
   value: string;
 }
 
-export interface IParameter {
+export interface IntentParameter {
   id: string;
   name: string;
   required: boolean;
@@ -51,7 +51,7 @@ export interface IParameter {
   value: string;
   defaultValue: string;
   isList: boolean;
-  prompts: IPrompt[];
+  prompts: IntentPrompt[];
   promptMessages: any[];
   noMatchPromptMessages: any[];
   noInputPromptMessages: any[];

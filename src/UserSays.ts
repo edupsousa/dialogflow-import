@@ -1,19 +1,19 @@
-export interface IUserSaysFile {
+export interface UserSays {
   intentName: string;
   lang: string;
-  phrases: IUserSaysPhrase[];
+  phrases: UserSaysPhrase[];
 }
 
-export interface IUserSaysPhrase {
+export interface UserSaysPhrase {
   id:         string;
-  data:       IUserSaysPhrasePart[];
+  data:       UserSaysPhrasePart[];
   isTemplate: boolean;
   count:      number;
   lang:       string;
   updated:    number;
 }
 
-export interface IUserSaysPhrasePart {
+export interface UserSaysPhrasePart {
   text:        string;
   userDefined: boolean;
   meta?:       string;

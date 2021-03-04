@@ -1,10 +1,10 @@
 import { JSZipObject } from 'jszip';
 import { AgentFile } from "./AgentFile";
-import { IUserSaysFile, IUserSaysPhrase } from './IUserSaysFile';
+import { UserSays, UserSaysPhrase } from './UserSays';
 
 const USERSAYS_FILENAME_REGEX = /^intents\/(.+)_usersays_(.+)\.json$/g;
 
-export async function getUserSaysFiles(agentFile: AgentFile): Promise<IUserSaysFile[]> {
+export async function getUserSays(agentFile: AgentFile): Promise<UserSays[]> {
     return Promise.all(filterUserSaysFiles(agentFile).map(parseUserSaysFile));
 }
 
@@ -12,10 +12,10 @@ function filterUserSaysFiles(agentFile: AgentFile): JSZipObject[] {
     return agentFile.filter((path) => USERSAYS_FILENAME_REGEX.test(path));
 }
 
-async function parseUserSaysFile(file: JSZipObject): Promise<IUserSaysFile> {
+async function parseUserSaysFile(file: JSZipObject): Promise<UserSays> {
     const contents = await file.async('string');
     try {
-        const phrases = JSON.parse(contents) as IUserSaysPhrase[];
+        const phrases = JSON.parse(contents) as UserSaysPhrase[];
         return { ...getIntentNameAndLanguage(file.name), phrases };
     } catch (e) {
         throw new Error(`Error parsing user says file ${file.name}: ${e.message}`);
