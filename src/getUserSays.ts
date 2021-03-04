@@ -1,6 +1,5 @@
 import { JSZipObject } from 'jszip';
-import { AgentFile } from "./AgentFile";
-import { UserSays, UserSaysPhrase } from './UserSays';
+import { AgentFile, UserSays, UserSaysPhrase } from "./types";
 
 const USERSAYS_FILENAME_REGEX = /^intents\/(.+)_usersays_(.+)\.json$/g;
 

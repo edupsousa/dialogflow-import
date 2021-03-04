@@ -1,5 +1,5 @@
 import JSZip from 'jszip';
-import { AgentFile } from "./AgentFile";
+import { AgentFile } from "./types/AgentFile";
 
 export async function openAgentFileBuffer(fileBuffer: Buffer): Promise<AgentFile> {
     const zip = JSZip();
