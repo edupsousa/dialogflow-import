@@ -1,7 +1,7 @@
 import JSZip, { JSZipObject } from 'jszip';
 import { Intent } from "./types";
 
-const INTENT_FILENAME_REGEX = /^intents\/((?!_usersays_).)*\.json$/g;
+const INTENT_FILENAME_REGEX = /^intents\/((?!_usersays_).)*\.json$/;
 
 export async function getIntents(agentFile: JSZip): Promise<Intent[]> {
     return Promise.all(filterIntentFiles(agentFile).map(parseIntentFile));
