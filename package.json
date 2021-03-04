@@ -5,6 +5,7 @@
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
     "scripts": {
+        "build": "tsc",
         "test": "jest --coverage",
         "lint": "eslint '*/**/*.{js,ts}' --quiet --fix"
     },
@@ -60,5 +61,8 @@
         "prettier": "^2.2.1",
         "ts-jest": "^26.5.3",
         "typescript": "^4.2.2"
+    },
+    "dependencies": {
+        "jszip": "^3.6.0"
     }
 }

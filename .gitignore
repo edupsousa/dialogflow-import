@@ -108,3 +108,7 @@ coverage/
 
 # Sample Agents for testing and examples
 sample/*.zip
+sample/*/
+
+# Build directory
+lib/
