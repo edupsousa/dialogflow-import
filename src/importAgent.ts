@@ -1,4 +1,5 @@
 import JSZip from 'jszip';
+import { getAgentConfig } from './getAgentConfig';
 import { getIntents } from './getIntents';
 import { getUserSays } from './getUserSays';
 import { Agent, AgentIntents, AgentUserSays } from './types';
@@ -10,6 +11,9 @@ import { Agent, AgentIntents, AgentUserSays } from './types';
  */
 export async function importAgent(file: Buffer): Promise<Agent> {
   const agentFile = await openAgentFile(file);
+
+  const config = await getAgentConfig(agentFile);
+
   const intents: AgentIntents = (await getIntents(agentFile)).reduce((map, intent) => {
     map[intent.name] = intent;
     return map;
@@ -22,6 +26,7 @@ export async function importAgent(file: Buffer): Promise<Agent> {
   }, {} as AgentUserSays);
 
   return {
+    config,
     intents,
     userSays,
   };

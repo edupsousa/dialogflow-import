@@ -1,3 +1,4 @@
+import { AgentConfig } from './AgentConfig';
 import { Intent } from './Intent';
 import { UserSays } from './UserSays';
 
@@ -12,11 +13,15 @@ export type AgentUserSays = Record<string, Record<string, UserSays>>;
 
 export interface Agent {
   /**
-   * Intents contained by the imported agent.
+   * Intents contained by the imported agent (intents/*(!_usersays_*).json).
    */
   intents: AgentIntents;
   /**
-   * User says (training phrases) contained by the imported agent.
+   * User says (training phrases) contained by the imported agent (intents/*_userssays_*.json)
    */
   userSays: AgentUserSays;
+  /**
+   * Agent config imported from agent.json file.
+   */
+  config: AgentConfig;
 }
