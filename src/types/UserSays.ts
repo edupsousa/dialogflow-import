@@ -5,17 +5,17 @@ export interface UserSays {
 }
 
 export interface UserSaysPhrase {
-  id:         string;
-  data:       UserSaysPhrasePart[];
+  id: string;
+  data: UserSaysPhrasePart[];
   isTemplate: boolean;
-  count:      number;
-  lang:       string;
-  updated:    number;
+  count: number;
+  lang: string;
+  updated: number;
 }
 
 export interface UserSaysPhrasePart {
-  text:        string;
+  text: string;
   userDefined: boolean;
-  meta?:       string;
-  alias?:      string;
+  meta?: string;
+  alias?: string;
 }
