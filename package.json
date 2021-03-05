@@ -1,6 +1,6 @@
 {
   "name": "dialogflow-import",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Utility library to import agent backup files from Google DialogFlow",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
