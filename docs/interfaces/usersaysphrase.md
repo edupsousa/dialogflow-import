@@ -19,7 +19,7 @@
 
 • **count**: *number*
 
-Defined in: [types/UserSays.ts:11](https://github.com/edupsousa/dialogflow-import/blob/e97dd40/src/types/UserSays.ts#L11)
+Defined in: [types/UserSays.ts:11](https://github.com/edupsousa/dialogflow-import/blob/b0e5ad1/src/types/UserSays.ts#L11)
 
 ___
 
@@ -27,7 +27,7 @@ ___
 
 • **data**: [*UserSaysPhrasePart*](usersaysphrasepart.md)[]
 
-Defined in: [types/UserSays.ts:9](https://github.com/edupsousa/dialogflow-import/blob/e97dd40/src/types/UserSays.ts#L9)
+Defined in: [types/UserSays.ts:9](https://github.com/edupsousa/dialogflow-import/blob/b0e5ad1/src/types/UserSays.ts#L9)
 
 ___
 
@@ -35,7 +35,7 @@ ___
 
 • **id**: *string*
 
-Defined in: [types/UserSays.ts:8](https://github.com/edupsousa/dialogflow-import/blob/e97dd40/src/types/UserSays.ts#L8)
+Defined in: [types/UserSays.ts:8](https://github.com/edupsousa/dialogflow-import/blob/b0e5ad1/src/types/UserSays.ts#L8)
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 • **isTemplate**: *boolean*
 
-Defined in: [types/UserSays.ts:10](https://github.com/edupsousa/dialogflow-import/blob/e97dd40/src/types/UserSays.ts#L10)
+Defined in: [types/UserSays.ts:10](https://github.com/edupsousa/dialogflow-import/blob/b0e5ad1/src/types/UserSays.ts#L10)
 
 ___
 
@@ -51,7 +51,7 @@ ___
 
 • **lang**: *string*
 
-Defined in: [types/UserSays.ts:12](https://github.com/edupsousa/dialogflow-import/blob/e97dd40/src/types/UserSays.ts#L12)
+Defined in: [types/UserSays.ts:12](https://github.com/edupsousa/dialogflow-import/blob/b0e5ad1/src/types/UserSays.ts#L12)
 
 ___
 
@@ -59,4 +59,4 @@ ___
 
 • **updated**: *number*
 
-Defined in: [types/UserSays.ts:13](https://github.com/edupsousa/dialogflow-import/blob/e97dd40/src/types/UserSays.ts#L13)
+Defined in: [types/UserSays.ts:13](https://github.com/edupsousa/dialogflow-import/blob/b0e5ad1/src/types/UserSays.ts#L13)

@@ -25,7 +25,7 @@
 
 • **dataType**: *string*
 
-Defined in: [types/Intent.ts:50](https://github.com/edupsousa/dialogflow-import/blob/e97dd40/src/types/Intent.ts#L50)
+Defined in: [types/Intent.ts:50](https://github.com/edupsousa/dialogflow-import/blob/b0e5ad1/src/types/Intent.ts#L50)
 
 ___
 
@@ -33,7 +33,7 @@ ___
 
 • **defaultValue**: *string*
 
-Defined in: [types/Intent.ts:52](https://github.com/edupsousa/dialogflow-import/blob/e97dd40/src/types/Intent.ts#L52)
+Defined in: [types/Intent.ts:52](https://github.com/edupsousa/dialogflow-import/blob/b0e5ad1/src/types/Intent.ts#L52)
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 • **id**: *string*
 
-Defined in: [types/Intent.ts:47](https://github.com/edupsousa/dialogflow-import/blob/e97dd40/src/types/Intent.ts#L47)
+Defined in: [types/Intent.ts:47](https://github.com/edupsousa/dialogflow-import/blob/b0e5ad1/src/types/Intent.ts#L47)
 
 ___
 
@@ -49,7 +49,7 @@ ___
 
 • **isList**: *boolean*
 
-Defined in: [types/Intent.ts:53](https://github.com/edupsousa/dialogflow-import/blob/e97dd40/src/types/Intent.ts#L53)
+Defined in: [types/Intent.ts:53](https://github.com/edupsousa/dialogflow-import/blob/b0e5ad1/src/types/Intent.ts#L53)
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 • **name**: *string*
 
-Defined in: [types/Intent.ts:48](https://github.com/edupsousa/dialogflow-import/blob/e97dd40/src/types/Intent.ts#L48)
+Defined in: [types/Intent.ts:48](https://github.com/edupsousa/dialogflow-import/blob/b0e5ad1/src/types/Intent.ts#L48)
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 • **noInputPromptMessages**: *any*[]
 
-Defined in: [types/Intent.ts:57](https://github.com/edupsousa/dialogflow-import/blob/e97dd40/src/types/Intent.ts#L57)
+Defined in: [types/Intent.ts:57](https://github.com/edupsousa/dialogflow-import/blob/b0e5ad1/src/types/Intent.ts#L57)
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 • **noMatchPromptMessages**: *any*[]
 
-Defined in: [types/Intent.ts:56](https://github.com/edupsousa/dialogflow-import/blob/e97dd40/src/types/Intent.ts#L56)
+Defined in: [types/Intent.ts:56](https://github.com/edupsousa/dialogflow-import/blob/b0e5ad1/src/types/Intent.ts#L56)
 
 ___
 
@@ -81,7 +81,7 @@ ___
 
 • **outputDialogContexts**: *any*[]
 
-Defined in: [types/Intent.ts:58](https://github.com/edupsousa/dialogflow-import/blob/e97dd40/src/types/Intent.ts#L58)
+Defined in: [types/Intent.ts:58](https://github.com/edupsousa/dialogflow-import/blob/b0e5ad1/src/types/Intent.ts#L58)
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 • **promptMessages**: *any*[]
 
-Defined in: [types/Intent.ts:55](https://github.com/edupsousa/dialogflow-import/blob/e97dd40/src/types/Intent.ts#L55)
+Defined in: [types/Intent.ts:55](https://github.com/edupsousa/dialogflow-import/blob/b0e5ad1/src/types/Intent.ts#L55)
 
 ___
 
@@ -97,7 +97,7 @@ ___
 
 • **prompts**: [*IntentPrompt*](intentprompt.md)[]
 
-Defined in: [types/Intent.ts:54](https://github.com/edupsousa/dialogflow-import/blob/e97dd40/src/types/Intent.ts#L54)
+Defined in: [types/Intent.ts:54](https://github.com/edupsousa/dialogflow-import/blob/b0e5ad1/src/types/Intent.ts#L54)
 
 ___
 
@@ -105,7 +105,7 @@ ___
 
 • **required**: *boolean*
 
-Defined in: [types/Intent.ts:49](https://github.com/edupsousa/dialogflow-import/blob/e97dd40/src/types/Intent.ts#L49)
+Defined in: [types/Intent.ts:49](https://github.com/edupsousa/dialogflow-import/blob/b0e5ad1/src/types/Intent.ts#L49)
 
 ___
 
@@ -113,4 +113,4 @@ ___
 
 • **value**: *string*
 
-Defined in: [types/Intent.ts:51](https://github.com/edupsousa/dialogflow-import/blob/e97dd40/src/types/Intent.ts#L51)
+Defined in: [types/Intent.ts:51](https://github.com/edupsousa/dialogflow-import/blob/b0e5ad1/src/types/Intent.ts#L51)

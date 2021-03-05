@@ -19,7 +19,7 @@
 
 • **action**: *string*
 
-Defined in: [types/Intent.ts:19](https://github.com/edupsousa/dialogflow-import/blob/e97dd40/src/types/Intent.ts#L19)
+Defined in: [types/Intent.ts:19](https://github.com/edupsousa/dialogflow-import/blob/b0e5ad1/src/types/Intent.ts#L19)
 
 ___
 
@@ -27,7 +27,7 @@ ___
 
 • **affectedContexts**: [*IntentAffectedContext*](intentaffectedcontext.md)[]
 
-Defined in: [types/Intent.ts:20](https://github.com/edupsousa/dialogflow-import/blob/e97dd40/src/types/Intent.ts#L20)
+Defined in: [types/Intent.ts:20](https://github.com/edupsousa/dialogflow-import/blob/b0e5ad1/src/types/Intent.ts#L20)
 
 ___
 
@@ -35,7 +35,7 @@ ___
 
 • **messages**: [*IntentMessage*](intentmessage.md)[]
 
-Defined in: [types/Intent.ts:22](https://github.com/edupsousa/dialogflow-import/blob/e97dd40/src/types/Intent.ts#L22)
+Defined in: [types/Intent.ts:22](https://github.com/edupsousa/dialogflow-import/blob/b0e5ad1/src/types/Intent.ts#L22)
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 • **parameters**: [*IntentParameter*](intentparameter.md)[]
 
-Defined in: [types/Intent.ts:21](https://github.com/edupsousa/dialogflow-import/blob/e97dd40/src/types/Intent.ts#L21)
+Defined in: [types/Intent.ts:21](https://github.com/edupsousa/dialogflow-import/blob/b0e5ad1/src/types/Intent.ts#L21)
 
 ___
 
@@ -51,7 +51,7 @@ ___
 
 • **resetContexts**: *boolean*
 
-Defined in: [types/Intent.ts:18](https://github.com/edupsousa/dialogflow-import/blob/e97dd40/src/types/Intent.ts#L18)
+Defined in: [types/Intent.ts:18](https://github.com/edupsousa/dialogflow-import/blob/b0e5ad1/src/types/Intent.ts#L18)
 
 ___
 
@@ -59,4 +59,4 @@ ___
 
 • **speech**: *any*[]
 
-Defined in: [types/Intent.ts:23](https://github.com/edupsousa/dialogflow-import/blob/e97dd40/src/types/Intent.ts#L23)
+Defined in: [types/Intent.ts:23](https://github.com/edupsousa/dialogflow-import/blob/b0e5ad1/src/types/Intent.ts#L23)
