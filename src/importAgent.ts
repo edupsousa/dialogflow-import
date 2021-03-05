@@ -4,6 +4,7 @@ import { getEntities } from './getEntities';
 import { getEntityEntries } from './getEntityEntries';
 import { getIntents, INTENT_FILENAME_REGEX } from './getIntents';
 import { getUserSays, USERSAYS_FILENAME_REGEX } from './getUserSays';
+import { openAgentFile } from './openAgentFile';
 import {
   Agent,
   AgentIntents,
@@ -86,10 +87,4 @@ async function checkAgentFileStructure(agentFile: JSZip): Promise<true> {
     throw new Error("Agent file doesn't contain training phrase files (_usersays_).");
 
   return true;
-}
-
-async function openAgentFile(file: Buffer): Promise<JSZip> {
-  const zip = JSZip();
-  const agentFile = await zip.loadAsync(file);
-  return agentFile;
 }
