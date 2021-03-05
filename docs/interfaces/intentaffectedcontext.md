@@ -15,7 +15,7 @@
 
 • **lifespan**: *number*
 
-Defined in: [types/Intent.ts:28](https://github.com/edupsousa/dialogflow-import/blob/a6244af/src/types/Intent.ts#L28)
+Defined in: [types/Intent.ts:28](https://github.com/edupsousa/dialogflow-import/blob/e97dd40/src/types/Intent.ts#L28)
 
 ___
 
@@ -23,4 +23,4 @@ ___
 
 • **name**: *string*
 
-Defined in: [types/Intent.ts:27](https://github.com/edupsousa/dialogflow-import/blob/a6244af/src/types/Intent.ts#L27)
+Defined in: [types/Intent.ts:27](https://github.com/edupsousa/dialogflow-import/blob/e97dd40/src/types/Intent.ts#L27)

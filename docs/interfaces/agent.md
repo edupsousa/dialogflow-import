@@ -17,7 +17,7 @@
 
 Intents contained by the imported agent.
 
-Defined in: [types/Agent.ts:17](https://github.com/edupsousa/dialogflow-import/blob/a6244af/src/types/Agent.ts#L17)
+Defined in: [types/Agent.ts:17](https://github.com/edupsousa/dialogflow-import/blob/e97dd40/src/types/Agent.ts#L17)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 User says (training phrases) contained by the imported agent.
 
-Defined in: [types/Agent.ts:21](https://github.com/edupsousa/dialogflow-import/blob/a6244af/src/types/Agent.ts#L21)
+Defined in: [types/Agent.ts:21](https://github.com/edupsousa/dialogflow-import/blob/e97dd40/src/types/Agent.ts#L21)

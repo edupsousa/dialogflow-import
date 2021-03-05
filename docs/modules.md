@@ -34,7 +34,7 @@
 
 A map with intent name as key and Intent as value.
 
-Defined in: [types/Agent.ts:7](https://github.com/edupsousa/dialogflow-import/blob/a6244af/src/types/Agent.ts#L7)
+Defined in: [types/Agent.ts:7](https://github.com/edupsousa/dialogflow-import/blob/e97dd40/src/types/Agent.ts#L7)
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 A map with intent name as key to another map with language code as key and user says as value.
 
-Defined in: [types/Agent.ts:11](https://github.com/edupsousa/dialogflow-import/blob/a6244af/src/types/Agent.ts#L11)
+Defined in: [types/Agent.ts:11](https://github.com/edupsousa/dialogflow-import/blob/e97dd40/src/types/Agent.ts#L11)
 
 ## Functions
 
@@ -64,4 +64,4 @@ Name | Type | Description |
 
 An Agent interface representing the imported files.
 
-Defined in: [importAgent.ts:11](https://github.com/edupsousa/dialogflow-import/blob/a6244af/src/importAgent.ts#L11)
+Defined in: [importAgent.ts:11](https://github.com/edupsousa/dialogflow-import/blob/e97dd40/src/importAgent.ts#L11)
