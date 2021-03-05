@@ -16,7 +16,7 @@
 
 • **intentName**: *string*
 
-Defined in: [types/UserSays.ts:2](https://github.com/edupsousa/dialogflow-import/blob/b0e5ad1/src/types/UserSays.ts#L2)
+Defined in: [types/UserSays.ts:2](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/UserSays.ts#L2)
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 • **lang**: *string*
 
-Defined in: [types/UserSays.ts:3](https://github.com/edupsousa/dialogflow-import/blob/b0e5ad1/src/types/UserSays.ts#L3)
+Defined in: [types/UserSays.ts:3](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/UserSays.ts#L3)
 
 ___
 
@@ -32,4 +32,4 @@ ___
 
 • **phrases**: [*UserSaysPhrase*](usersaysphrase.md)[]
 
-Defined in: [types/UserSays.ts:4](https://github.com/edupsousa/dialogflow-import/blob/b0e5ad1/src/types/UserSays.ts#L4)
+Defined in: [types/UserSays.ts:4](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/UserSays.ts#L4)
