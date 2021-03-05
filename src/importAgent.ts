@@ -1,8 +1,20 @@
 import JSZip from 'jszip';
 import { getAgentConfig } from './getAgentConfig';
+import { getEntities } from './getEntities';
+import { getEntityEntries } from './getEntityEntries';
 import { getIntents, INTENT_FILENAME_REGEX } from './getIntents';
 import { getUserSays, USERSAYS_FILENAME_REGEX } from './getUserSays';
-import { Agent, AgentIntents, AgentUserSays } from './types';
+import {
+  Agent,
+  AgentIntents,
+  AgentUserSays,
+  Entity,
+  Intent,
+  UserSays,
+  AgentEntities,
+  AgentEntityEntries,
+  EntityEntries,
+} from './types';
 
 /**
  * Import a zip file containing the DialogFlow (DF) agent exported from the DF console or command-line client.
@@ -15,22 +27,48 @@ export async function importAgent(file: Buffer): Promise<Agent> {
 
   const config = await getAgentConfig(agentFile);
 
-  const intents: AgentIntents = (await getIntents(agentFile)).reduce((map, intent) => {
-    map[intent.name] = intent;
-    return map;
-  }, {} as AgentIntents);
-
-  const userSays: AgentUserSays = (await getUserSays(agentFile)).reduce((map, userSays) => {
-    if (!map[userSays.intentName]) map[userSays.intentName] = {};
-    map[userSays.intentName][userSays.lang] = userSays;
-    return map;
-  }, {} as AgentUserSays);
+  const intents: AgentIntents = reduceIntentList(await getIntents(agentFile));
+  const userSays: AgentUserSays = reduceUserSaysList(await getUserSays(agentFile));
+  const entities: AgentEntities = reduceEntityList(await getEntities(agentFile));
+  const entityEntries: AgentEntityEntries = reduceEntriesList(await getEntityEntries(agentFile));
 
   return {
     config,
     intents,
     userSays,
+    entities,
+    entityEntries,
   };
+}
+
+function reduceEntriesList(entries: EntityEntries[]): AgentEntityEntries {
+  return entries.reduce((map, entry) => {
+    if (!map[entry.entity]) map[entry.entity] = {};
+    map[entry.entity][entry.lang] = entry;
+    return map;
+  }, {} as AgentEntityEntries);
+}
+
+function reduceEntityList(entities: Entity[]): AgentEntities {
+  return entities.reduce((map, entity) => {
+    map[entity.name] = entity;
+    return map;
+  }, {} as AgentEntities);
+}
+
+function reduceIntentList(intents: Intent[]): AgentIntents {
+  return intents.reduce((map, intent) => {
+    map[intent.name] = intent;
+    return map;
+  }, {} as AgentIntents);
+}
+
+function reduceUserSaysList(userSays: UserSays[]): AgentUserSays {
+  return userSays.reduce((map, userSays) => {
+    if (!map[userSays.intentName]) map[userSays.intentName] = {};
+    map[userSays.intentName][userSays.lang] = userSays;
+    return map;
+  }, {} as AgentUserSays);
 }
 
 async function checkAgentFileStructure(agentFile: JSZip): Promise<true> {
