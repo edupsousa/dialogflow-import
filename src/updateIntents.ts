@@ -9,5 +9,5 @@ export async function updateIntents(file: Buffer, intents: Intent[]): Promise<Bu
     agentFile.file(`intents/${intent.name}.json`, jsonData);
   });
 
-  return agentFile.generateAsync({ type: 'nodebuffer' });
+  return agentFile.generateAsync({ type: 'nodebuffer', compression: 'DEFLATE', compressionOptions: { level: 6 } });
 }
