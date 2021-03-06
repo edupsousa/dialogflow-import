@@ -20,7 +20,7 @@
 
 • **condition**: *string*
 
-Defined in: [types/Intent.ts:37](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Intent.ts#L37)
+Defined in: [types/Intent.ts:37](https://github.com/edupsousa/dialogflow-import/blob/cb3143e/src/types/Intent.ts#L37)
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **lang**: *string*
 
-Defined in: [types/Intent.ts:36](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Intent.ts#L36)
+Defined in: [types/Intent.ts:36](https://github.com/edupsousa/dialogflow-import/blob/cb3143e/src/types/Intent.ts#L36)
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 • `Optional` **payload**: *unknown*
 
-Defined in: [types/Intent.ts:34](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Intent.ts#L34)
+Defined in: [types/Intent.ts:34](https://github.com/edupsousa/dialogflow-import/blob/cb3143e/src/types/Intent.ts#L34)
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 • `Optional` **speech**: *undefined* \| *string*[]
 
-Defined in: [types/Intent.ts:38](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Intent.ts#L38)
+Defined in: [types/Intent.ts:38](https://github.com/edupsousa/dialogflow-import/blob/cb3143e/src/types/Intent.ts#L38)
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 • **textToSpeech**: *string*
 
-Defined in: [types/Intent.ts:35](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Intent.ts#L35)
+Defined in: [types/Intent.ts:35](https://github.com/edupsousa/dialogflow-import/blob/cb3143e/src/types/Intent.ts#L35)
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 • **title**: *string*
 
-Defined in: [types/Intent.ts:33](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Intent.ts#L33)
+Defined in: [types/Intent.ts:33](https://github.com/edupsousa/dialogflow-import/blob/cb3143e/src/types/Intent.ts#L33)
 
 ___
 
@@ -68,4 +68,4 @@ ___
 
 • **type**: *string*
 
-Defined in: [types/Intent.ts:32](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Intent.ts#L32)
+Defined in: [types/Intent.ts:32](https://github.com/edupsousa/dialogflow-import/blob/cb3143e/src/types/Intent.ts#L32)

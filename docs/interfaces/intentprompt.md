@@ -15,7 +15,7 @@
 
 • **lang**: *string*
 
-Defined in: [types/Intent.ts:42](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Intent.ts#L42)
+Defined in: [types/Intent.ts:42](https://github.com/edupsousa/dialogflow-import/blob/cb3143e/src/types/Intent.ts#L42)
 
 ___
 
@@ -23,4 +23,4 @@ ___
 
 • **value**: *string*
 
-Defined in: [types/Intent.ts:43](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Intent.ts#L43)
+Defined in: [types/Intent.ts:43](https://github.com/edupsousa/dialogflow-import/blob/cb3143e/src/types/Intent.ts#L43)

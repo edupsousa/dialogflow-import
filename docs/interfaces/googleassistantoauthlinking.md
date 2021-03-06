@@ -20,7 +20,7 @@
 
 • **authorizationUrl**: *string*
 
-Defined in: [types/AgentConfig.ts:45](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L45)
+Defined in: [types/AgentConfig.ts:45](https://github.com/edupsousa/dialogflow-import/blob/cb3143e/src/types/AgentConfig.ts#L45)
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **grantType**: *string*
 
-Defined in: [types/AgentConfig.ts:49](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L49)
+Defined in: [types/AgentConfig.ts:49](https://github.com/edupsousa/dialogflow-import/blob/cb3143e/src/types/AgentConfig.ts#L49)
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 • **privacyPolicyUrl**: *string*
 
-Defined in: [types/AgentConfig.ts:48](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L48)
+Defined in: [types/AgentConfig.ts:48](https://github.com/edupsousa/dialogflow-import/blob/cb3143e/src/types/AgentConfig.ts#L48)
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 • **providerId**: *string*
 
-Defined in: [types/AgentConfig.ts:44](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L44)
+Defined in: [types/AgentConfig.ts:44](https://github.com/edupsousa/dialogflow-import/blob/cb3143e/src/types/AgentConfig.ts#L44)
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 • **required**: *boolean*
 
-Defined in: [types/AgentConfig.ts:43](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L43)
+Defined in: [types/AgentConfig.ts:43](https://github.com/edupsousa/dialogflow-import/blob/cb3143e/src/types/AgentConfig.ts#L43)
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 • **scopes**: *string*
 
-Defined in: [types/AgentConfig.ts:47](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L47)
+Defined in: [types/AgentConfig.ts:47](https://github.com/edupsousa/dialogflow-import/blob/cb3143e/src/types/AgentConfig.ts#L47)
 
 ___
 
@@ -68,4 +68,4 @@ ___
 
 • **tokenUrl**: *string*
 
-Defined in: [types/AgentConfig.ts:46](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L46)
+Defined in: [types/AgentConfig.ts:46](https://github.com/edupsousa/dialogflow-import/blob/cb3143e/src/types/AgentConfig.ts#L46)

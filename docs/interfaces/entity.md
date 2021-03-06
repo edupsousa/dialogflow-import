@@ -20,7 +20,7 @@
 
 • **allowFuzzyExtraction**: *boolean*
 
-Defined in: [types/Entity.ts:8](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Entity.ts#L8)
+Defined in: [types/Entity.ts:8](https://github.com/edupsousa/dialogflow-import/blob/cb3143e/src/types/Entity.ts#L8)
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **automatedExpansion**: *boolean*
 
-Defined in: [types/Entity.ts:7](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Entity.ts#L7)
+Defined in: [types/Entity.ts:7](https://github.com/edupsousa/dialogflow-import/blob/cb3143e/src/types/Entity.ts#L7)
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 • **id**: *string*
 
-Defined in: [types/Entity.ts:2](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Entity.ts#L2)
+Defined in: [types/Entity.ts:2](https://github.com/edupsousa/dialogflow-import/blob/cb3143e/src/types/Entity.ts#L2)
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 • **isEnum**: *boolean*
 
-Defined in: [types/Entity.ts:5](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Entity.ts#L5)
+Defined in: [types/Entity.ts:5](https://github.com/edupsousa/dialogflow-import/blob/cb3143e/src/types/Entity.ts#L5)
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 • **isOverridable**: *boolean*
 
-Defined in: [types/Entity.ts:4](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Entity.ts#L4)
+Defined in: [types/Entity.ts:4](https://github.com/edupsousa/dialogflow-import/blob/cb3143e/src/types/Entity.ts#L4)
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 • **isRegexp**: *boolean*
 
-Defined in: [types/Entity.ts:6](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Entity.ts#L6)
+Defined in: [types/Entity.ts:6](https://github.com/edupsousa/dialogflow-import/blob/cb3143e/src/types/Entity.ts#L6)
 
 ___
 
@@ -68,4 +68,4 @@ ___
 
 • **name**: *string*
 
-Defined in: [types/Entity.ts:3](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Entity.ts#L3)
+Defined in: [types/Entity.ts:3](https://github.com/edupsousa/dialogflow-import/blob/cb3143e/src/types/Entity.ts#L3)
