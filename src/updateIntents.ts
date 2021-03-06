@@ -1,12 +1,12 @@
 import { openAgentFile } from './openAgentFile';
-import { Intent } from './types';
+import { AgentIntents } from './types';
 
-export async function updateIntents(file: Buffer, intents: Intent[]): Promise<Buffer> {
+export async function updateIntents(file: Buffer, intents: AgentIntents): Promise<Buffer> {
   const agentFile = await openAgentFile(file);
 
-  intents.forEach((intent) => {
-    const jsonData = JSON.stringify(intent, undefined, 2);
-    agentFile.file(`intents/${intent.name}.json`, jsonData);
+  Object.keys(intents).forEach((filename) => {
+    const jsonData = JSON.stringify(intents[filename], undefined, 2);
+    agentFile.file(`intents/${filename}.json`, jsonData);
   });
 
   return agentFile.generateAsync({ type: 'nodebuffer', compression: 'DEFLATE', compressionOptions: { level: 6 } });

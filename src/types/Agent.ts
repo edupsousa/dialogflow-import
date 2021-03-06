@@ -4,7 +4,7 @@ import { Intent } from './Intent';
 import { UserSays } from './UserSays';
 
 /**
- * A map with intent name as key and Intent as value.
+ * A map with the Intent file name as key and Intent as value.
  */
 export type AgentIntents = Record<string, Intent>;
 /**

@@ -19,6 +19,6 @@ async function parseIntentFile(file: JSZipObject): Promise<[string, Intent]> {
 function getIntentName(intentFilename: string): string {
   const matches = INTENT_FILENAME_REGEX.exec(intentFilename);
   if (matches === null) throw new Error(`Error extracting intent name from intent file ${intentFilename}`);
-  const [_, intentName] = matches;
+  const [, intentName] = matches;
   return intentName;
 }

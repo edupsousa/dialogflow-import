@@ -50,9 +50,9 @@ function reduceEntriesList(entries: EntityEntries[]): AgentEntityEntries {
   }, {} as AgentEntityEntries);
 }
 
-function reduceEntityList(entities: Entity[]): AgentEntities {
-  return entities.reduce((map, entity) => {
-    map[entity.name] = entity;
+function reduceEntityList(entities: [string, Entity][]): AgentEntities {
+  return entities.reduce((map, [filename, entity]) => {
+    map[filename] = entity;
     return map;
   }, {} as AgentEntities);
 }
