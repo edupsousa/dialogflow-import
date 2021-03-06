@@ -57,9 +57,9 @@ function reduceEntityList(entities: Entity[]): AgentEntities {
   }, {} as AgentEntities);
 }
 
-function reduceIntentList(intents: Intent[]): AgentIntents {
-  return intents.reduce((map, intent) => {
-    map[intent.name] = intent;
+function reduceIntentList(intents: [string, Intent][]): AgentIntents {
+  return intents.reduce((map, [filename, intent]) => {
+    map[filename] = intent;
     return map;
   }, {} as AgentIntents);
 }
