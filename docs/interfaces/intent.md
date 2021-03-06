@@ -26,7 +26,7 @@
 
 • **auto**: *boolean*
 
-Defined in: [types/Intent.ts:4](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/Intent.ts#L4)
+Defined in: [types/Intent.ts:4](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Intent.ts#L4)
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 • **condition**: *string*
 
-Defined in: [types/Intent.ts:13](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/Intent.ts#L13)
+Defined in: [types/Intent.ts:13](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Intent.ts#L13)
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 • **conditionalFollowupEvents**: *any*[]
 
-Defined in: [types/Intent.ts:14](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/Intent.ts#L14)
+Defined in: [types/Intent.ts:14](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Intent.ts#L14)
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 • **conditionalResponses**: *any*[]
 
-Defined in: [types/Intent.ts:12](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/Intent.ts#L12)
+Defined in: [types/Intent.ts:12](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Intent.ts#L12)
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 • **contexts**: *string*[]
 
-Defined in: [types/Intent.ts:5](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/Intent.ts#L5)
+Defined in: [types/Intent.ts:5](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Intent.ts#L5)
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 • **events**: *any*[]
 
-Defined in: [types/Intent.ts:11](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/Intent.ts#L11)
+Defined in: [types/Intent.ts:11](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Intent.ts#L11)
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 • **fallbackIntent**: *boolean*
 
-Defined in: [types/Intent.ts:10](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/Intent.ts#L10)
+Defined in: [types/Intent.ts:10](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Intent.ts#L10)
 
 ___
 
@@ -82,7 +82,7 @@ ___
 
 • **id**: *string*
 
-Defined in: [types/Intent.ts:2](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/Intent.ts#L2)
+Defined in: [types/Intent.ts:2](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Intent.ts#L2)
 
 ___
 
@@ -90,7 +90,7 @@ ___
 
 • **name**: *string*
 
-Defined in: [types/Intent.ts:3](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/Intent.ts#L3)
+Defined in: [types/Intent.ts:3](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Intent.ts#L3)
 
 ___
 
@@ -98,7 +98,7 @@ ___
 
 • **priority**: *number*
 
-Defined in: [types/Intent.ts:7](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/Intent.ts#L7)
+Defined in: [types/Intent.ts:7](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Intent.ts#L7)
 
 ___
 
@@ -106,7 +106,7 @@ ___
 
 • **responses**: [*IntentResponse*](intentresponse.md)[]
 
-Defined in: [types/Intent.ts:6](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/Intent.ts#L6)
+Defined in: [types/Intent.ts:6](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Intent.ts#L6)
 
 ___
 
@@ -114,7 +114,7 @@ ___
 
 • **webhookForSlotFilling**: *boolean*
 
-Defined in: [types/Intent.ts:9](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/Intent.ts#L9)
+Defined in: [types/Intent.ts:9](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Intent.ts#L9)
 
 ___
 
@@ -122,4 +122,4 @@ ___
 
 • **webhookUsed**: *boolean*
 
-Defined in: [types/Intent.ts:8](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/Intent.ts#L8)
+Defined in: [types/Intent.ts:8](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Intent.ts#L8)

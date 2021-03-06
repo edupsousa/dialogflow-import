@@ -20,7 +20,7 @@
 
 • **available**: *boolean*
 
-Defined in: [types/AgentConfig.ts:56](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/AgentConfig.ts#L56)
+Defined in: [types/AgentConfig.ts:56](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L56)
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **cloudFunctionsEnabled**: *boolean*
 
-Defined in: [types/AgentConfig.ts:58](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/AgentConfig.ts#L58)
+Defined in: [types/AgentConfig.ts:58](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L58)
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 • **cloudFunctionsInitialized**: *boolean*
 
-Defined in: [types/AgentConfig.ts:59](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/AgentConfig.ts#L59)
+Defined in: [types/AgentConfig.ts:59](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L59)
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 • **headers**: *unknown*
 
-Defined in: [types/AgentConfig.ts:55](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/AgentConfig.ts#L55)
+Defined in: [types/AgentConfig.ts:55](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L55)
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 • **url**: *string*
 
-Defined in: [types/AgentConfig.ts:53](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/AgentConfig.ts#L53)
+Defined in: [types/AgentConfig.ts:53](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L53)
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 • **useForDomains**: *boolean*
 
-Defined in: [types/AgentConfig.ts:57](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/AgentConfig.ts#L57)
+Defined in: [types/AgentConfig.ts:57](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L57)
 
 ___
 
@@ -68,4 +68,4 @@ ___
 
 • **username**: *string*
 
-Defined in: [types/AgentConfig.ts:54](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/AgentConfig.ts#L54)
+Defined in: [types/AgentConfig.ts:54](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L54)

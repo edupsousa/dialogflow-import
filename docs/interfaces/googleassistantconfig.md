@@ -26,7 +26,7 @@
 
 • **autoPreviewEnabled**: *boolean*
 
-Defined in: [types/AgentConfig.ts:38](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/AgentConfig.ts#L38)
+Defined in: [types/AgentConfig.ts:38](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L38)
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 • **capabilities**: *unknown*[]
 
-Defined in: [types/AgentConfig.ts:35](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/AgentConfig.ts#L35)
+Defined in: [types/AgentConfig.ts:35](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L35)
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 • **endIntentIds**: *unknown*[]
 
-Defined in: [types/AgentConfig.ts:32](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/AgentConfig.ts#L32)
+Defined in: [types/AgentConfig.ts:32](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L32)
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 • **env**: *string*
 
-Defined in: [types/AgentConfig.ts:36](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/AgentConfig.ts#L36)
+Defined in: [types/AgentConfig.ts:36](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L36)
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 • **googleAssistantCompatible**: *boolean*
 
-Defined in: [types/AgentConfig.ts:27](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/AgentConfig.ts#L27)
+Defined in: [types/AgentConfig.ts:27](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L27)
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 • **isDeviceAgent**: *boolean*
 
-Defined in: [types/AgentConfig.ts:39](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/AgentConfig.ts#L39)
+Defined in: [types/AgentConfig.ts:39](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L39)
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 • **oAuthLinking**: [*GoogleAssistantOAuthLinking*](googleassistantoauthlinking.md)
 
-Defined in: [types/AgentConfig.ts:33](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/AgentConfig.ts#L33)
+Defined in: [types/AgentConfig.ts:33](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L33)
 
 ___
 
@@ -82,7 +82,7 @@ ___
 
 • **project**: *string*
 
-Defined in: [types/AgentConfig.ts:28](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/AgentConfig.ts#L28)
+Defined in: [types/AgentConfig.ts:28](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L28)
 
 ___
 
@@ -90,7 +90,7 @@ ___
 
 • **protocolVersion**: *string*
 
-Defined in: [types/AgentConfig.ts:37](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/AgentConfig.ts#L37)
+Defined in: [types/AgentConfig.ts:37](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L37)
 
 ___
 
@@ -98,7 +98,7 @@ ___
 
 • **startIntents**: *unknown*[]
 
-Defined in: [types/AgentConfig.ts:30](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/AgentConfig.ts#L30)
+Defined in: [types/AgentConfig.ts:30](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L30)
 
 ___
 
@@ -106,7 +106,7 @@ ___
 
 • **systemIntents**: *unknown*[]
 
-Defined in: [types/AgentConfig.ts:31](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/AgentConfig.ts#L31)
+Defined in: [types/AgentConfig.ts:31](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L31)
 
 ___
 
@@ -114,7 +114,7 @@ ___
 
 • **voiceType**: *string*
 
-Defined in: [types/AgentConfig.ts:34](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/AgentConfig.ts#L34)
+Defined in: [types/AgentConfig.ts:34](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L34)
 
 ___
 
@@ -122,4 +122,4 @@ ___
 
 • **welcomeIntentSignInRequired**: *boolean*
 
-Defined in: [types/AgentConfig.ts:29](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/AgentConfig.ts#L29)
+Defined in: [types/AgentConfig.ts:29](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L29)

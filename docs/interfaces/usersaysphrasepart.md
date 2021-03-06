@@ -17,7 +17,7 @@
 
 • `Optional` **alias**: *undefined* \| *string*
 
-Defined in: [types/UserSays.ts:20](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/UserSays.ts#L20)
+Defined in: [types/UserSays.ts:20](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/UserSays.ts#L20)
 
 ___
 
@@ -25,7 +25,7 @@ ___
 
 • `Optional` **meta**: *undefined* \| *string*
 
-Defined in: [types/UserSays.ts:19](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/UserSays.ts#L19)
+Defined in: [types/UserSays.ts:19](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/UserSays.ts#L19)
 
 ___
 
@@ -33,7 +33,7 @@ ___
 
 • **text**: *string*
 
-Defined in: [types/UserSays.ts:17](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/UserSays.ts#L17)
+Defined in: [types/UserSays.ts:17](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/UserSays.ts#L17)
 
 ___
 
@@ -41,4 +41,4 @@ ___
 
 • **userDefined**: *boolean*
 
-Defined in: [types/UserSays.ts:18](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/UserSays.ts#L18)
+Defined in: [types/UserSays.ts:18](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/UserSays.ts#L18)

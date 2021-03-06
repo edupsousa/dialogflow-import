@@ -35,7 +35,7 @@
 
 • **analyzeQueryTextSentiment**: *boolean*
 
-Defined in: [types/AgentConfig.ts:19](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/AgentConfig.ts#L19)
+Defined in: [types/AgentConfig.ts:19](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L19)
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 • **baseActionPackagesUrl**: *string*
 
-Defined in: [types/AgentConfig.ts:23](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/AgentConfig.ts#L23)
+Defined in: [types/AgentConfig.ts:23](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L23)
 
 ___
 
@@ -51,7 +51,7 @@ ___
 
 • **defaultTimezone**: *string*
 
-Defined in: [types/AgentConfig.ts:11](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/AgentConfig.ts#L11)
+Defined in: [types/AgentConfig.ts:11](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L11)
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 • **description**: *string*
 
-Defined in: [types/AgentConfig.ts:2](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/AgentConfig.ts#L2)
+Defined in: [types/AgentConfig.ts:2](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L2)
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 • **dialogBuilderMode**: *boolean*
 
-Defined in: [types/AgentConfig.ts:22](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/AgentConfig.ts#L22)
+Defined in: [types/AgentConfig.ts:22](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L22)
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 • **disableInteractionLogs**: *boolean*
 
-Defined in: [types/AgentConfig.ts:8](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/AgentConfig.ts#L8)
+Defined in: [types/AgentConfig.ts:8](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L8)
 
 ___
 
@@ -83,7 +83,7 @@ ___
 
 • **disableStackdriverLogs**: *boolean*
 
-Defined in: [types/AgentConfig.ts:9](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/AgentConfig.ts#L9)
+Defined in: [types/AgentConfig.ts:9](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L9)
 
 ___
 
@@ -91,7 +91,7 @@ ___
 
 • **displayName**: *string*
 
-Defined in: [types/AgentConfig.ts:7](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/AgentConfig.ts#L7)
+Defined in: [types/AgentConfig.ts:7](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L7)
 
 ___
 
@@ -99,7 +99,7 @@ ___
 
 • **enableOnePlatformApi**: *boolean*
 
-Defined in: [types/AgentConfig.ts:16](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/AgentConfig.ts#L16)
+Defined in: [types/AgentConfig.ts:16](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L16)
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 • **enabledKnowledgeBaseNames**: *unknown*[]
 
-Defined in: [types/AgentConfig.ts:20](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/AgentConfig.ts#L20)
+Defined in: [types/AgentConfig.ts:20](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L20)
 
 ___
 
@@ -115,7 +115,7 @@ ___
 
 • **examples**: *string*
 
-Defined in: [types/AgentConfig.ts:5](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/AgentConfig.ts#L5)
+Defined in: [types/AgentConfig.ts:5](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L5)
 
 ___
 
@@ -123,7 +123,7 @@ ___
 
 • **googleAssistant**: [*GoogleAssistantConfig*](googleassistantconfig.md)
 
-Defined in: [types/AgentConfig.ts:10](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/AgentConfig.ts#L10)
+Defined in: [types/AgentConfig.ts:10](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L10)
 
 ___
 
@@ -131,7 +131,7 @@ ___
 
 • **isPrivate**: *boolean*
 
-Defined in: [types/AgentConfig.ts:13](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/AgentConfig.ts#L13)
+Defined in: [types/AgentConfig.ts:13](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L13)
 
 ___
 
@@ -139,7 +139,7 @@ ___
 
 • **knowledgeServiceConfidenceAdjustment**: *number*
 
-Defined in: [types/AgentConfig.ts:21](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/AgentConfig.ts#L21)
+Defined in: [types/AgentConfig.ts:21](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L21)
 
 ___
 
@@ -147,7 +147,7 @@ ___
 
 • **language**: *string*
 
-Defined in: [types/AgentConfig.ts:3](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/AgentConfig.ts#L3)
+Defined in: [types/AgentConfig.ts:3](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L3)
 
 ___
 
@@ -155,7 +155,7 @@ ___
 
 • **linkToDocs**: *string*
 
-Defined in: [types/AgentConfig.ts:6](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/AgentConfig.ts#L6)
+Defined in: [types/AgentConfig.ts:6](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L6)
 
 ___
 
@@ -163,7 +163,7 @@ ___
 
 • **mlMinConfidence**: *number*
 
-Defined in: [types/AgentConfig.ts:14](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/AgentConfig.ts#L14)
+Defined in: [types/AgentConfig.ts:14](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L14)
 
 ___
 
@@ -171,7 +171,7 @@ ___
 
 • **onePlatformApiVersion**: *string*
 
-Defined in: [types/AgentConfig.ts:17](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/AgentConfig.ts#L17)
+Defined in: [types/AgentConfig.ts:17](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L17)
 
 ___
 
@@ -179,7 +179,7 @@ ___
 
 • **secondaryKey**: *string*
 
-Defined in: [types/AgentConfig.ts:18](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/AgentConfig.ts#L18)
+Defined in: [types/AgentConfig.ts:18](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L18)
 
 ___
 
@@ -187,7 +187,7 @@ ___
 
 • **shortDescription**: *string*
 
-Defined in: [types/AgentConfig.ts:4](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/AgentConfig.ts#L4)
+Defined in: [types/AgentConfig.ts:4](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L4)
 
 ___
 
@@ -195,7 +195,7 @@ ___
 
 • **supportedLanguages**: *unknown*[]
 
-Defined in: [types/AgentConfig.ts:15](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/AgentConfig.ts#L15)
+Defined in: [types/AgentConfig.ts:15](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L15)
 
 ___
 
@@ -203,4 +203,4 @@ ___
 
 • **webhook**: [*WebhookConfig*](webhookconfig.md)
 
-Defined in: [types/AgentConfig.ts:12](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/AgentConfig.ts#L12)
+Defined in: [types/AgentConfig.ts:12](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/AgentConfig.ts#L12)

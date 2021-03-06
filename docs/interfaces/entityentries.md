@@ -16,7 +16,7 @@
 
 • **entity**: *string*
 
-Defined in: [types/Entity.ts:17](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/Entity.ts#L17)
+Defined in: [types/Entity.ts:17](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Entity.ts#L17)
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 • **entries**: [*EntityEntry*](entityentry.md)[]
 
-Defined in: [types/Entity.ts:19](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/Entity.ts#L19)
+Defined in: [types/Entity.ts:19](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Entity.ts#L19)
 
 ___
 
@@ -32,4 +32,4 @@ ___
 
 • **lang**: *string*
 
-Defined in: [types/Entity.ts:18](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/Entity.ts#L18)
+Defined in: [types/Entity.ts:18](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Entity.ts#L18)

@@ -15,7 +15,7 @@
 
 • **synonyms**: *string*[]
 
-Defined in: [types/Entity.ts:13](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/Entity.ts#L13)
+Defined in: [types/Entity.ts:13](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Entity.ts#L13)
 
 ___
 
@@ -23,4 +23,4 @@ ___
 
 • **value**: *string*
 
-Defined in: [types/Entity.ts:12](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/Entity.ts#L12)
+Defined in: [types/Entity.ts:12](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Entity.ts#L12)

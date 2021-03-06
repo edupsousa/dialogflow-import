@@ -20,7 +20,7 @@
 
 Agent config imported from agent.json file.
 
-Defined in: [types/Agent.ts:29](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/Agent.ts#L29)
+Defined in: [types/Agent.ts:29](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Agent.ts#L29)
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 Entities imported from entities/*(!_entries_*).json
 
-Defined in: [types/Agent.ts:33](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/Agent.ts#L33)
+Defined in: [types/Agent.ts:33](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Agent.ts#L33)
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 Entity entries imported from entities/*_entries_*.json
 
-Defined in: [types/Agent.ts:37](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/Agent.ts#L37)
+Defined in: [types/Agent.ts:37](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Agent.ts#L37)
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 Intents contained by the imported agent (intents/*(!_usersays_*).json).
 
-Defined in: [types/Agent.ts:21](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/Agent.ts#L21)
+Defined in: [types/Agent.ts:21](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Agent.ts#L21)
 
 ___
 
@@ -60,4 +60,4 @@ ___
 
 User says (training phrases) contained by the imported agent (intents/*_userssays_*.json)
 
-Defined in: [types/Agent.ts:25](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/Agent.ts#L25)
+Defined in: [types/Agent.ts:25](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Agent.ts#L25)

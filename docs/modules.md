@@ -34,6 +34,7 @@
 ### Functions
 
 - [importAgent](modules.md#importagent)
+- [updateIntents](modules.md#updateintents)
 
 ## Type aliases
 
@@ -41,7 +42,7 @@
 
 Ƭ **AgentEntities**: *Record*<string, [*Entity*](interfaces/entity.md)\>
 
-Defined in: [types/Agent.ts:14](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/Agent.ts#L14)
+Defined in: [types/Agent.ts:14](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Agent.ts#L14)
 
 ___
 
@@ -49,7 +50,7 @@ ___
 
 Ƭ **AgentEntityEntries**: *Record*<string, Record<string, [*EntityEntries*](interfaces/entityentries.md)\>\>
 
-Defined in: [types/Agent.ts:15](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/Agent.ts#L15)
+Defined in: [types/Agent.ts:15](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Agent.ts#L15)
 
 ___
 
@@ -59,7 +60,7 @@ ___
 
 A map with intent name as key and Intent as value.
 
-Defined in: [types/Agent.ts:9](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/Agent.ts#L9)
+Defined in: [types/Agent.ts:9](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Agent.ts#L9)
 
 ___
 
@@ -69,7 +70,7 @@ ___
 
 A map with intent name as key to another map with language code as key and user says as value.
 
-Defined in: [types/Agent.ts:13](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/types/Agent.ts#L13)
+Defined in: [types/Agent.ts:13](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/types/Agent.ts#L13)
 
 ## Functions
 
@@ -89,4 +90,21 @@ Name | Type | Description |
 
 An Agent interface representing the imported files.
 
-Defined in: [importAgent.ts:24](https://github.com/edupsousa/dialogflow-import/blob/49e4aaa/src/importAgent.ts#L24)
+Defined in: [importAgent.ts:25](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/importAgent.ts#L25)
+
+___
+
+### updateIntents
+
+▸ **updateIntents**(`file`: Buffer, `intents`: [*Intent*](interfaces/intent.md)[]): *Promise*<Buffer\>
+
+#### Parameters:
+
+Name | Type |
+:------ | :------ |
+`file` | Buffer |
+`intents` | [*Intent*](interfaces/intent.md)[] |
+
+**Returns:** *Promise*<Buffer\>
+
+Defined in: [updateIntents.ts:4](https://github.com/edupsousa/dialogflow-import/blob/67be62f/src/updateIntents.ts#L4)
