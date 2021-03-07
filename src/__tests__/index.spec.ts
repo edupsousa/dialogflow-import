@@ -18,4 +18,9 @@ describe('importAgent correctness', () => {
     const userSays = Object.keys(agent.userSays);
     expect(intents).toEqual(expect.arrayContaining(userSays));
   });
+
+  test('config must be populated', () => {
+    expect(typeof agent.config.displayName).toBe('string');
+    expect(agent.config.displayName.length).toBeGreaterThan(0);
+  });
 });

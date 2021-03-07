@@ -1,6 +1,6 @@
 {
   "name": "dialogflow-import",
-  "version": "0.0.5",
+  "version": "0.1.2",
   "description": "Utility library to import agent backup files from Google DialogFlow",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -12,8 +12,9 @@
     "prepare": "npm run build",
     "prepublishOnly": "npm run lint",
     "preversion": "npm run lint",
-    "version": "npm run format && git add -A src",
-    "postversion": "git push && git push --tags"
+    "version": "npm run format && npm run docs && git add -A src docs",
+    "postversion": "git push && git push --tags",
+    "docs": "typedoc && git add -A docs"
   },
   "repository": {
     "type": "git",
@@ -66,6 +67,8 @@
     "lint-staged": "^10.5.4",
     "prettier": "^2.2.1",
     "ts-jest": "^26.5.3",
+    "typedoc": "^0.20.29",
+    "typedoc-plugin-markdown": "^3.6.0",
     "typescript": "^4.2.2"
   },
   "dependencies": {

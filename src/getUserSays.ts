@@ -1,14 +1,10 @@
 import JSZip, { JSZipObject } from 'jszip';
 import { UserSays, UserSaysPhrase } from './types';
 
-const USERSAYS_FILENAME_REGEX = /^intents\/(.+)_usersays_(.+)\.json$/;
+export const USERSAYS_FILENAME_REGEX = /^intents\/(.+)_usersays_(.+)\.json$/;
 
 export async function getUserSays(agentFile: JSZip): Promise<UserSays[]> {
-  return Promise.all(filterUserSaysFiles(agentFile).map(parseUserSaysFile));
-}
-
-function filterUserSaysFiles(agentFile: JSZip): JSZipObject[] {
-  return agentFile.filter((path) => USERSAYS_FILENAME_REGEX.test(path));
+  return Promise.all(agentFile.file(USERSAYS_FILENAME_REGEX).map(parseUserSaysFile));
 }
 
 async function parseUserSaysFile(file: JSZipObject): Promise<UserSays> {
